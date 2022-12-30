@@ -1,2 +1,2 @@
 Personal Website
-www.kavyaarun.com
+www.niharikasrivatsa.com
