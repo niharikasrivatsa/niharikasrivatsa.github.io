@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niharika Srivatsa</title>
+    <link rel="icon" href="images/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <img class="logo" src="images/logo.png"><a href="#"></span></a>
+            <ul class="menu">
+                <li><a href="#about" class="menu-btn">about</a></li> 
+                <li><a href="#work" class="menu-btn">work</a></li>
+                <li><a href="#connect" class="menu-btn">connect</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    <!-- homepage section -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, nice to meet you</div>
+                <div class="text-2">I'm <span class="text-2-1">Niharika Srivatsa  </span></div>
+                <div class="text-3"><span class="typing"></span></div>
+                <a href="mailto:nniharik@uwaterloo.ca" target="_blank" class="main-sec">contact for resume</a>
+            </div>
+        </div>
+    </section>
+    <!-- about section-->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">about me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="images/niharika.png" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text"><span class="typing-2"></span></div>
+                    <p>I'm a second-year student at the <a href="https://uwaterloo.ca/engineering/" target="_blank" rel="noopener" class="uwaterloo-link"><b>University of Waterloo</b></a> studying Systems Design Engineering.
+                         I'm currently a Software Engineer Intern @ <a href="https://pointclickcare.com/" target="_blank" rel="noopener" class="pcc-link">PointClickCare</a> working with the Machine Learning Predictions team. I've previously interned @ <a href="https://www.distributedgenomics.ca/" target="_blank" rel="noopener" class="uhn-link"><b>University Health Network</b></a> as a Software Developer working on ETL pipelines.
+                        <br><br> From connecting Waterloo students with mentors through <a href="https://www.techplusuw.com/" target="_blank" rel="noopener" class="techuw-link"><b>Tech+UW</b></a>, and to encouraging girls to break into the STEM industry with <a href="https://github.com/niharikasrivatsa/Projectify" target="_blank" rel="noopener" class="projectify-link"><b>Projectify</b></a>, I'm always looking to tackle complex problems.
+                    <br><br> When I'm not collaborating with others on fun projects, you can find me buying $6 coffees, going on bike rides, trying new foods and occasionally picking up a mystery novel.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- work section-->
+    <section class="work" id="work">
+        <div class="max-width">
+            <h2 class="title">my work</h2>
+            <div class="serv-content">
+                <div class="card">
+                        <div class="card-content"><b>PointClickCare - Internship</b> <br>
+                            Sept 2022 - Dec 2022
+                        </div>
+                        <div class="card-content2">
+                        <div class="card-info">Optimized microservices for an MLOps pipeline receiving 500 million patient records daily using <b>Java</b>, <b>Spring Boot</b>, <b>Cron</b>, and <b>Hibernate ORM</b>, while implementing <b>JUnit</b> and <b>Mockito</b> tests.
+                        </div>
+                        </div>
+                    <div class="box" id="pcc"> 
+                        <img class="pcc-card" src="images/pcc1.png" style="width:250px; height:250px; border-radius: 8px;">
+                        <div class="text">software engineer intern</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content"><b>UHN CanDIG - Internship</b><br>
+                        Jan - Apr 2022
+                    </div>
+                    <div class="card-content2">
+                        <div class="card-info">Designed and implemented 7 <b>ETL</b> pipelines using <b>Python, Pandas </b>and, <b>Numpy</b> to convert data from flat files into the latest cancer research data model utilizing HL7/FHIR standards. Read more about it in my blog post <a href="https://www.distributedgenomics.ca/posts/data-pipelines-candig-approach-and-best-practices/">here</a>.
+                            
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/uhn1.png" style="width:250px; height:250px; border-radius: 8px;">
+                        <div class="text">software developer intern</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content"><b>Projectify - 2nd place</b><br>
+                        Nov 2022
+                    </div>
+                    <div class="card-content2">
+                        <div class="card-info">Designed and developed an Android and iOS app with <b>React Native</b> and <b>AWS Amplify</b> to connect high school girls looking to work on side projects with others to encourage more girls to pursue STEM fields. The project placed second in WiE hackathon.
+                        </div>
+                    
+                    </div>
+                    <div class="box">
+                        <img  src="images/projectify1.png" style="width:250px; height:250px; border-radius: 8px;">
+                        <div class="text">projectify <br>WiE hackathon</div>
+                    </div>
+                </div>
+            
+                <div class="card">
+                    <div class="card-content"><b>Tech+UW</b><br>
+                        Jan - Apr 2022
+                    </div>
+                    <div class="card-content2">
+                        <div class="card-info">Developed a mentorship portal to connect 5000+ undergraduate students to upper-year mentors using <b>React</b>, <b>Flask</b>, and <b>PostgreSQL</b>. Constructed responsive website features
+                            and developed solutions for bugs within a tight deployment deadline.
+                           Check it out <a href="http://techplusuw.org/">here</a>.
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img class="rbc-card" src="images/techuw1.png" style="width:250px; height:250px; border-radius: 8px;">
+                        <div class="text">full stack developer</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content"><b>TravelDeck- MERN Stack</b><br>
+                        Apr 2022
+                    </div>
+                    <div class="card-content2">
+                        <div class="card-info"> Developed a CRUD web application to journal travel experiences using <b>React, Node.js, Express, MongoDB </b>and, <b>Redux</b>. Decreased server data fetch time by 20% by using React Hooks and managing state with Redux.
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/traveldeck.png" style="width:250px; height:250px; border-radius: 8px;">
+                        <div class="text">traveldeck</div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-content"><b>Felicity</b><br>
+                        May - Oct 2021
+                    </div>
+                    <div class="card-content2">
+                            <div class="card-info">
+                                Collaborated with a team to develop a cross-platform mobile application to support students' mental health through psychological interventions using  <b>Dart/Flutter</b> and <b>Firebase</b>. Developed 20+ pages and 5+ reusable UI components.
+                            </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/felicity.png" style="width:250px; height:250px; border-radius: 8px;">
+                        <div class="text">mobile developer</div>
+                    </div>
+                </div>
+            
+               </div>
+            </div>
+        </div>
+    </section>
+    <!-- connect section start -->
+    <section class="connect" id="connect">
+        <div class="max-width">
+            <h2 class="title">let's connect</h2>
+            <div class="connect-content">
+                <div class="column left">
+                    <div class="icons">
+                        <div class="row">
+                            <li><a href="mailto:nniharik@uwaterloo.ca"><i class="fas fa-at"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/niharika-srivatsa/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="https://github.com/niharikasrivatsa" target="_blank"><i class="fab fa-github"></i></a></li>
+                        </div>
+                    
+                        
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
