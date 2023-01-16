@@ -31,10 +31,10 @@ $(document).ready(function(){
     });
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["systems design engineering student @ uwaterloo", "software engineer intern @ pointclickcare"],
-        typeSpeed: 90,
-        backSpeed: 35,
-        loop: true
+        strings: ["systems design engineering student @ uwaterloo"],
+        typeSpeed: 50,
+        //backSpeed: 35,
+        loop: false
     });
     var typed = new Typed(".typing-2", {
         strings: ["currently seeking summer 2023 internships!"],
