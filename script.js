@@ -37,7 +37,7 @@ $(document).ready(function(){
         loop: false
     });
     var typed = new Typed(".typing-2", {
-        strings: ["currently seeking summer 2023 internships!"],
+        strings: ["currently seeking winter 2024 internships!"],
         typeSpeed: 120,
         loop: false
 
