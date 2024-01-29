@@ -335,6 +335,9 @@ section .title::after {
 
 /* connect section styling */
 
+.connect {
+  background-color: #fff;
+}
 .connect .connect-content .column {
   width: calc(50% - 30px);
 }
