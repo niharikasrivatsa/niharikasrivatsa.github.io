@@ -33,7 +33,7 @@ $(document).ready(function () {
   var typed = new Typed(".typing", {
     strings: [
       "systems design engineering student @ uwaterloo",
-      "developer and designer striving to empower people",
+      "developer striving to empower people",
     ],
     typeSpeed: 50,
     backSpeed: 35,
