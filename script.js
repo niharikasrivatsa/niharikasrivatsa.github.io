@@ -40,7 +40,7 @@ $(document).ready(function () {
     loop: true,
   });
   var typed = new Typed(".typing-2", {
-    strings: ["currently seeking 2025 internships!"],
+    strings: ["incoming swe intern @ microsoft!"],
     typeSpeed: 120,
     loop: false,
   });
