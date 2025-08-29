@@ -32,15 +32,15 @@ $(document).ready(function () {
   // typing text animation script
   var typed = new Typed(".typing", {
     strings: [
+      "seeking new grad 2026!",
       "systems design engineering student @ uwaterloo",
-      "developer striving to empower people",
     ],
     typeSpeed: 50,
     backSpeed: 35,
     loop: true,
   });
   var typed = new Typed(".typing-2", {
-    strings: ["incoming swe intern @ microsoft!"],
+    strings: ["prev swe intern @ microsoft!"],
     typeSpeed: 120,
     loop: false,
   });

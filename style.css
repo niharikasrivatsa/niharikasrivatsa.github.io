@@ -650,6 +650,30 @@ p .uhn-link {
   -webkit-text-fill-color: transparent;
 }
 
+/* Microsoft Azure Data link - Microsoft colors (blue, green, yellow, red) */
+.microsoft-link {
+  background: linear-gradient(
+    45deg,
+    #c0401f 25%,
+    #5f9100 50%,
+    #0078d7 75%,
+    #cc8b00 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold; /* make text bold */
+  font-size: 1.05em;
+}
+
+/* BLG link - shades of blue */
+.blg-link {
+  background: linear-gradient(45deg, #003366 50%, #3399ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 p .d2l-link {
   background: linear-gradient(45deg, #11551e 50%, #db8f2b 100%);
   -webkit-background-clip: text;
